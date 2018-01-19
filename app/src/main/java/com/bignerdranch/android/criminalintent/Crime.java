@@ -1,5 +1,4 @@
-package com.odfd.android.criminalintent;
-
+package com.bignerdranch.android.criminalintent;
 
 import java.util.Date;
 import java.util.UUID;
@@ -11,9 +10,9 @@ public class Crime {
     private Date mDate;
     private boolean mSolved;
 
-    public Crime(){
-        this.mId = UUID.randomUUID();
-        this.mDate = new Date();
+    public Crime() {
+        mId = UUID.randomUUID();
+        mDate = new Date();
     }
 
     public UUID getId() {
